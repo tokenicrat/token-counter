@@ -1,0 +1,73 @@
+baseURL: "https://hi.tokenisite.top"
+title: "词元计数器"
+languageCode: zh-cn
+defaultContentLanguage: zh-cn
+copyright: "🆓 [CC0](https://creativecommons.org/public-domain/cc0/) 授权，允许您自由使用。"
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+
+languages:
+  zh-cn:
+    languageName: "简体中文"
+    menu:
+      main:
+        - name: 📚 档案
+          url: archives
+        - name: ❓ 关于
+          url: about
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "词元说话，要按 token 收费"
+  author: "词元"
+  fancyTitle: "⌨️ 词元计数器"
+
+  defaultTheme: auto
+  disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  comments: false
+
+  homeInfoParams:
+    Title: "词元计数器"
+    Content: "词元说话，要按 token 收费"
+
+  socialIcons:
+    - name: github
+      title: 看看词元的 Github
+      url: "https://github.com/tokenicrat"
+    - name: email
+      title: 通过邮件联系词元
+      url: "mailto:tokenicrat@tuta.io"
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon.ico"
+    favicon32x32: "favicon.ico"
+    apple_touch_icon: "favicon.ico"
+    safari_pinned_tab: "favicon.ico"
