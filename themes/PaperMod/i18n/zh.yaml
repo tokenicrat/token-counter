@@ -1,13 +1,13 @@
 - id: prev_page
-  translation: "上一页"
+  translation: "上一頁"
 
 - id: next_page
-  translation: "下一页"
+  translation: "下一頁"
 
 - id: read_time
   translation:
-    one : "1 分钟"
-    other: "{{ .Count }} 分钟"
+    one : "1 分鐘"
+    other: "{{ .Count }} 分鐘"
 
 - id: words
   translation: 
@@ -15,19 +15,19 @@
     other: "{{ .Count }} 字"
 
 - id: toc
-  translation: "目录"
+  translation: "目錄"
 
 - id: translations
-  translation: "语言"
+  translation: "語言"
 
 - id: home
-  translation: "主页"
+  translation: "首頁"
 
 - id: edit_post
-  translation: "编辑"
+  translation: "編輯"
 
 - id: code_copy
-  translation: "复制"
+  translation: "複製"
 
 - id: code_copied
-  translation: "已复制"
+  translation: "已複製"
