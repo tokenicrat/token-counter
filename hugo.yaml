@@ -2,7 +2,7 @@ baseURL: "https://hi.tokenisite.top"
 title: "词元计数器"
 languageCode: zh-tw
 defaultContentLanguage: zh-tw
-copyright: "🆓 [CC0](https://creativecommons.org/public-domain/cc0/) 授权，允许您自由使用。"
+copyright: "🆓 [CC0](https://creativecommons.org/public-domain/cc0/) 授權，允許您自由使用。"
 theme: ["PaperMod"]
 
 enableInlineShortcodes: true
