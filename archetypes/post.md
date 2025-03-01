@@ -4,9 +4,9 @@ date: "{{ .Date }}"
 tags: []
 draft: false
 noindex: false
-enableKaTeX: true
+enableKaTeX: false
 cover:
-    image: "/img/{{ replace .File.ContentBaseName "-" " " | title }}"
+    image: "{{ site.Params.staticURL }}img/{{ with .File }}{{ .LogicalName }}{{ end }}/cover.png"
     alt: "描述文字"
     hidden: false
 ---

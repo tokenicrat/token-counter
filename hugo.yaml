@@ -15,6 +15,7 @@ minify:
 
 params:
   env: production
+  staticURL: "https://static.tokenisite.top/"
   title: "词元计数器"
   fancyTitle: "🔏 词元计数器"
   description: "变宝为废，变废为核废"
@@ -44,6 +45,7 @@ params:
     favicon32x32: "/favicon.ico"
     apple_touch_icon: "/favicon.ico"
     safari_pinned_tab: "/favicon.ico"
+    banner: "/banner.png"
 
   homeInfoParams:
     Title: "词元计数器"
@@ -59,16 +61,6 @@ params:
     hidden: false
     hiddenInList: false
     hiddenInSingle: false
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10
-    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:

@@ -48,6 +48,12 @@
     </ul>
   </footer>
 
+  {{if site.Params.assets.banner}}
+  <div class="post-content">
+    <img src="{{ .Site.Params.assets.banner }}" alt="Banner" />
+  </div>
+  {{ end }}
+
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
