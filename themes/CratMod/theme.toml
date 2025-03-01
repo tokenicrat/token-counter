@@ -1,0 +1,41 @@
+name = "CratMod"
+license = "The Unlicense"
+licenselink = "https://github.com/tokenicrat/token-counter/blob/master/LICENSE"
+description = " A theme derived from PaperMod, removing unnecessary features and improving speed."
+homepage = "https://github.com/tokenicrat/token-counter"
+tags = [
+  "responsive",
+  "simple",
+  "clean",
+  "light",
+  "dark",
+  "blog",
+  "minimalist",
+  "highlight.js"
+]
+features = [
+  "responsive",
+  "single-column",
+  "blog",
+  "cover-image",
+  "table-of-contents",
+  "highlight.js",
+  "favicon",
+  "archive",
+  "cover",
+  "minified-assets",
+  "theme-toggle",
+  "menu-location-indicator",
+  "scroll-to-top"
+]
+min_version = "0.125.7"
+
+[author]
+  name = "Tokenicrat"
+  homepage = "https://github.com/tokenicrat/"
+
+[original]
+  name = "PaperMod"
+  author = "nanxiaobei"
+  homepage = "https://github.com/adityatelange/"
+  repo = "https://github.com/adityatelange/hugo-PaperMod/"

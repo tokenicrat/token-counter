@@ -1,0 +1,7 @@
+User-agent: *
+{{ range .Site.AllPages }}
+{{ if .Params.noindex }}
+Disallow: {{ .RelPermalink }}
+{{ end }}
+{{ end }}
+Sitemap: {{ "sitemap.xml" | absURL }}

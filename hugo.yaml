@@ -1,0 +1,93 @@
+baseURL: "https://hi.tokenisite.top/"
+title: 词元计数器
+theme: "CratMod"
+copyright: "使用 CC0 协议，允许您自由使用"
+languageCode: zh
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "词元计数器"
+  fancyTitle: "🔏 词元计数器"
+  description: "变宝为废，变废为核废"
+  author: 词元
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  comments: true
+  showtoc: true
+  tocopen: false
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon.ico"
+    favicon32x32: "/favicon.ico"
+    apple_touch_icon: "/favicon.ico"
+    safari_pinned_tab: "/favicon.ico"
+
+  homeInfoParams:
+    Title: "词元计数器"
+    Content: "变宝为废，变废为核废"
+
+  socialIcons:
+  - name: github
+    url: "https://github.com/"
+  - name: email
+    url: "mailto:tokenicrat@tuta.io"
+  
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: "home"
+      name: "📚 档案"
+      url: /archives/
+      weight: 10
+    - identifier: "tags"
+      name: "🏷️ 标签"
+      url: /tags/
+      weight: 20
+    - identifier: "about"
+      name: "❓ 关于"
+      url: /about/
+      weight: 30
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    guessSyntax: false
+    lineNos: true
