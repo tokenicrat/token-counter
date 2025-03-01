@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production
-  staticURL: "https://hi.tokenisite.top/"
+  staticURL: "https://cdn.tokenisite.top/token-counter/"
   title: "词元计数器"
   fancyTitle: "🔏 词元计数器"
   description: "变宝为废，变废为核废"
