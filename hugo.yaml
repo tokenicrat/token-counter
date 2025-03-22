@@ -17,7 +17,7 @@ params:
   env: production
   title: "词元计数器"
   fancyTitle: "🔏 词元计数器"
-  description: "变宝为废，变废为核废"
+  description: "418 I'm a teapot"
   author: 词元
   DateFormat: "January 2, 2006"
   defaultTheme: auto
@@ -48,7 +48,7 @@ params:
 
   homeInfoParams:
     Title: "词元计数器"
-    Content: "变宝为废，变废为核废"
+    Content: "418 I'm a teapot"
 
   socialIcons:
   - name: github
@@ -71,10 +71,6 @@ menu:
       name: "🏷️ 标签"
       url: /tags/
       weight: 20
-    - identifier: "about"
-      name: "❓ 关于"
-      url: /about/
-      weight: 30
 
 pygmentsUseClasses: true
 markup:
