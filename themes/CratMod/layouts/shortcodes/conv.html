@@ -1,0 +1,11 @@
+<div class="conversation">
+  <div class="avatar">
+    <a href="/posts/characters#{{ .Get "name" }}">
+      <img src="/img/common/{{ .Get "name" }}/{{ .Get "expr" | default "normal" }}.png" 
+        alt="{{ .Get "name" }}">
+    </a>
+  </div>
+  <div class="content">
+    <div class="text">{{ .Inner | markdownify }}</div>
+  </div>
+</div>
