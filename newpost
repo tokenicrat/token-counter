@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FILE_NAME="$(openssl rand -hex 5)"
+
+hugo new --kind post "content/posts/${FILE_NAME}.md"
+mkdir "static/img/${FILE_NAME}.md"
