@@ -1,0 +1,11 @@
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="0" id="svg_1" height="256" width="256" y="0" x="0" stroke="#000" fill="#0000bf"/>
+  <rect fill="#ffffff" stroke-width="0" x="0" y="120" width="216" height="136" id="svg_10" stroke="#000"/>
+  <path fill="#0000bf" stroke="#000" stroke-width="0" opacity="NaN" d="m4,126l204,0l-52,61l-152,-61z" id="svg_13"/>
+  <text fill="#0000bf" stroke="#000" stroke-width="0" x="10" y="213" id="svg_9" font-size="20" font-family="'JetBrains Mono'" text-anchor="start" xml:space="preserve" font-weight="normal">Tokenisite</text>
+  <text fill="#0000bf" stroke="#000" stroke-width="0" x="10" y="246" id="svg_14" font-size="32" font-family="'JetBrains Mono'" text-anchor="start" xml:space="preserve" font-weight="bold">Mail</text>
+ </g>
+
+</svg>
