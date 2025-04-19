@@ -130,7 +130,7 @@
 
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-{{- template "partials/templates/schema_json.html" . }}
+{{- partial "templates/schema_json.html" . }}
 {{- end -}}
 
 {{- /* KaTeX support */}}

@@ -136,7 +136,9 @@
 }
 
 .post-content table th,
-.post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
+.post-content
+    table:not(.highlighttable, .highlight table, .gist .highlight)
+    td {
     min-width: 80px;
     padding: 8px 5px;
     line-height: 1.5;
@@ -198,6 +200,7 @@
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
+    font-family: "Noto Sans Mono";
 }
 
 .post-content pre code {
@@ -299,7 +302,7 @@
     margin-top: 56px;
 }
 
-.post-footer>* {
+.post-footer > * {
     margin-bottom: 10px;
 }
 
@@ -365,7 +368,7 @@ h6:hover .anchor {
     user-select: none;
 }
 
-h1>a>svg {
+h1 > a > svg {
     display: inline;
 }
 
