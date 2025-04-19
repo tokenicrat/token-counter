@@ -71,6 +71,10 @@ menu:
           name: "🏷️ 标签"
           url: /tags/
           weight: 20
+        - identifier: "about"
+          name: "🧐 关于"
+          url: /about/
+          weight: 30
 
 pygmentsUseClasses: true
 markup:
